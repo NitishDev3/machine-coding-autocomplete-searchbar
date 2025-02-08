@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+.search-bar {
+  width: 500px;
+  padding: 5px;
+  border: 2px solid black;
+}
+
+.result-container {
+  width: 510px;
+  border: 2px solid black;
+  text-align: left;
+  margin: auto;
+}
+
+.result {
+  display: block;
+}
+
+.result:hover {
+  cursor: pointer;
+  background-color: gray;
+}
+
+.recipe-container{
+  display: flex;
+  width: 510px;
+  margin: auto;
+}
+
+.ingredients {
+  width: 250px;
+  text-align: left;
+  border: 1px solid black;
+}
+
+.instructions {
+  width: 260px;
+  padding: 5px;
+  text-align: left;
+  border: 1px solid black;
+}
