@@ -33,7 +33,7 @@ function App() {
 
     setresults(json?.recipes);
     setCache(prev => (
-      { ...prev, [input]: results }
+      { ...prev, [input]: json?.recipes }
     ))
   }
 
